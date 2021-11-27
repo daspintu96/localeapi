@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 // Route::redirect('/','/en');
 
-Route:: apiresource('product','ProductController');
+
 
 Route::get('/setlang/{lg}','SwithLang@index');
 
